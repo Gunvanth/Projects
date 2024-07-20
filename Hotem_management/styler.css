@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
+
+body{
+   
+    background: url("images/bg2.jpg");
+    background-size:100%100%;
+    background-repeat: no-repeat;
+    float:left;
+    background-attachment: fixed;
+    font-family: 'Source Sans Pro';
+}
+
+title{
+    color:blue;
+}
+h1,h2{
+    background-color:orangered;
+    color:whitesmoke;
+    text-align: center;
+    opacity: 0.7;
+    font-size: 28px;
+    font-family: 'Almendra SC', serif;
+}
+li{
+    color:white;
+    font-size: 30px;
+    
+}
+table{
+    background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.6px);
+-webkit-backdrop-filter: blur(6.6px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+
+
+
+}
+td{
+    font-size: 28px;
+    width:40%;
+    text-align: center;
+    
+}
+img{
+    margin-top: 50px;
+    border-radius: 10px;
+    float: left;
+    margin-left: 20px;
+}
+
+button{
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color:orangered;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-family:'Source Sans Pro';
+}
+

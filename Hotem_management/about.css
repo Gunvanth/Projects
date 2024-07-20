@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Shalimar&display=swap');
+
+*{
+    margin: 20% padding 0;box-sizing:border-box;
+    list-style:none;
+   
+}
+body{
+    background: url('images/banner-img.jpg');
+    color:antiquewhite;
+    font-size:20px;
+    font-family: 'Josefin Sans';
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size :100% 100%;
+
+}
+
+.socialmedia{
+    text-align: center;
+    margin-left: 10px;
+    width: fit-content;
+    margin: 50px auto 50px auto;
+    padding: 5px 80px;
+    border-radius: 30px;
+    
+
+    background: rgba(255, 255, 255, 0.34);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.socialmedia ul{
+    display:flex;
+}
+.socialmedia ul li{
+    width:50px;
+    height:50px;
+    background-color:#483434;
+    margin-right: 50px;
+    border-radius: 10px;
+    line-height: 50px;
+    text-align:center;
+}
+.socialmedia ul li a{
+    color:white;
+    display: block;
+    font-size:20px;
+    text-align:center;
+    margin-top: 15px;
+    
+}
+.btn{
+    color:bisque;
+    background-color: #483434;
+    width:200px;
+    height:40px;
+    border-radius: 10px;
+    font-family: 'Josefin Sans';
+    margin-bottom: 20px;
+  }

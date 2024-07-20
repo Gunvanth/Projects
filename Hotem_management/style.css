@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Shalimar&display=swap');
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+  
+    font-family: 'Josefin Sans';  
+    background: url('images/banner-img.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size :100% 100%;
+  /* background-color:#F0E9D2; 'https://images.app.goo.gl/CF9uCEeePdCByTAJAs')*/
+   
+
+}  
+.box{  
+        width: 382px; 
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: rgba(255, 255, 255, 0.34);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);    
+        position:relative;
+        right: 100px;
+}  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color:#483434;
+  }
+h2{  
+    text-align: center;  
+    color: blanchedalmond; 
+    padding: 20px; 
+    background-color: #483434;
+    opacity: 0.9; 
+}  
+label{  
+    color:#181D31;  
+    font-size: 17px;  
+}  
+#user_name{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#password{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+.btn{
+  color:bisque;
+  background-color: #483434;
+  width:200px;
+  height:40px;
+  border-radius: 10px;
+  font-family: 'Josefin Sans';
+  margin-bottom: 20px;
+  margin-right: 120px;
+}
+span{  
+    color:#161E54;  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+      
+}  

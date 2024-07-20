@@ -1,0 +1,290 @@
+
+<html>
+    <head>
+        <title>Food</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="food.css">
+        
+
+    </head>
+    <body>
+
+
+        <nav class="navbar navbar-inverse bg-inverse fixed-top bg-faded">
+            <div class="row">
+                <div class="col">
+                  <button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#cart">Cart (<span class="total-count"></span>)</button><button class="clear-cart btn btn-danger">Clear Cart</button></div>
+            </div>
+        </nav>
+        
+        <h2>WELCOME TO HOTEL </h2>
+        <!-- Main -->
+        <div class="container">
+            <h2>Roti & Naan</h2>
+            <div class="row">
+            
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="images/roti.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Chapathi</h4>
+            <p class="card-text">Price:Rs.59</p>
+            <a href="#" data-name="Chapathi" data-price="59" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="images/parotta.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Parotta</h4>
+            <p class="card-text">Price: Rs.69</p>
+            <a href="#" data-name="Parotta" data-price="69" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+              </div>
+              
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="images/naan.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Butter Naan</h4>
+            <p class="card-text">Price:Rs.69</p>
+            <a href="#" data-name="Butter Naan" data-price="69" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+              </div>
+            </div>
+        </div>
+
+
+
+        <div class="container">
+          <h2>Rice</h2>
+          <div class="row">
+            
+            <div class="col">
+              <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="images/pr.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Plain Rice</h4>
+          <p class="card-text">Price:Rs.69</p>
+          <a href="#" data-name="Plain Rice" data-price="69" class="add-to-cart btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="images/fd2.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Veg Fried Rice</h4>
+          <p class="card-text">Price:Rs.99</p>
+          <a href="#" data-name="Veg Fried Rice" data-price="99" class="add-to-cart btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="images/chickenfr.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Chicken Fried Rice</h4>
+          <p class="card-text">Price: Rs.129</p>
+          <a href="#" data-name="Chicken Fried Rice" data-price="129" class="add-to-cart btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
+          </div>
+      </div>
+
+
+
+
+      <div class="container">
+        <h2>Curries</h2>
+        <div class="row">
+          
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+      <img class="card-img-top" src="images/pbm.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">Panneer Butter Masala</h4>
+        <p class="card-text">Price:Rs.149</p>
+        <a href="#" data-name="Panneer Butter Masala" data-price="149" class="add-to-cart btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+      <img class="card-img-top" src="images/vkx.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">Veg Kolhapuri</h4>
+        <p class="card-text">Price:Rs.129</p>
+        <a href="#" data-name="Veg Kolhapuri" data-price="129" class="add-to-cart btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+      <img class="card-img-top" src="images/mp.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">Matar Panneer</h4>
+        <p class="card-text">Price: Rs.149</p>
+        <a href="#" data-name="Matar Panneer" data-price="149" class="add-to-cart btn btn-primary">Add to cart</a>
+      </div>
+    </div>
+          </div>
+        </div>
+    </div>
+    
+
+
+    <div class="container">
+      <h2>Starters</h2>
+      <div class="row">
+        
+        <div class="col">
+          <div class="card" style="width: 20rem;">
+    <img class="card-img-top" src="images/kpc.jpg" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Kung Pao Chicken</h4>
+      <p class="card-text">Price:Rs.399</p>
+      <a href="#" data-name="Kung Pao Chicken" data-price="399" class="add-to-cart btn btn-primary">Add to cart</a>
+    </div>
+  </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 20rem;">
+    <img class="card-img-top" src="images/pt.jpg" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Panneer Tikka</h4>
+      <p class="card-text">Price:Rs.249</p>
+      <a href="#" data-name="Panneer Tikka" data-price="249" class="add-to-cart btn btn-primary">Add to cart</a>
+    </div>
+  </div>
+        </div>
+        
+        
+        <div class="col">
+          <div class="card" style="width: 20rem;">
+    <img class="card-img-top" src="images/str3.jpg" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Red Sauce Pasta</h4>
+      <p class="card-text">Price:Rs.129</p>
+      <a href="#" data-name="Red Sauce Pasta" data-price="129" class="add-to-cart btn btn-primary">Add to cart</a>
+    </div>
+  </div>
+        </div>
+      </div>
+  </div>
+
+
+
+
+        <div class="container">
+            <h2>Biryanis</h2>
+            <div class="row">
+              
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="images/vegbr.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Veg Biryani</h4>
+            <p class="card-text">Price:Rs.99</p>
+            <a href="#" data-name="Veg Biryani" data-price="99" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="images/egbr.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Egg Biryani</h4>
+            <p class="card-text">Price:Rs.129</p>
+            <a href="#" data-name="Egg Biryani" data-price="129" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="images/chickbri.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Chicken Biryani</h4>
+            <p class="card-text">Price: Rs.199</p>
+            <a href="#" data-name="Chicken Biryani" data-price="199" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+              </div>
+              
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="images/mb.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Mutton Biryani</h4>
+            <p class="card-text">Price:Rs.299</p>
+            <a href="#" data-name="Mutton Biryani" data-price="299" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+              </div>
+
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="images/prawnbri.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Prawn Biryani</h4>
+            <p class="card-text">Price:Rs.399</p>
+            <a href="#" data-name="Prawn Biryani" data-price="399" class="add-to-cart btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 20rem;">
+    <img class="card-img-top" src="images/cpb.jpg" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Spl.Chicken Pot Biryani</h4>
+      <p class="card-text">Price:Rs.399</p>
+      <a href="#" data-name="Spl.Chicken Pot Biryani" data-price="399" class="add-to-cart btn btn-primary">Add to cart</a>
+    </div>
+  </div>
+              </div>
+            </div>
+        </div>
+        
+        
+          
+         <!-- Modal -->
+        <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body" id="abcd">
+                <table class="show-cart table">
+                  
+                </table>
+                <div>Total price: Rs.<span class="total-cart"></span></div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button"   class="btn btn-primary" onclick="printpart()">Order now</button>
+              </div>
+            </div>
+          </div>
+        </div> 
+        
+        
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript" src="food.js">
+
+        </script>
+
+    </body>
+
+</html>

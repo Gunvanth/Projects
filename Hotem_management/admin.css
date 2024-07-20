@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Shalimar&display=swap');
+
+
+body{
+    background: url('images/banner-img.jpg');
+    font-size:20px;
+    font-family: 'Josefin Sans';
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size :100% 100%;
+}
+div {
+    box-align: center;
+    width: 300px;
+    margin: auto;  
+    padding: 80px;  
+    background: rgba(255, 255, 255, 0.34);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);    
+    position:relative;
+    right: 100px;
+}
+.btn{
+    align-self: center;
+    color:bisque;
+    background-color: #483434;
+    width:200px;
+    height:40px;
+    border-radius: 10px;
+    font-family: 'Josefin Sans';
+    margin-bottom: 20px;
+    margin-right: 120px;
+}
+h1{  
+    text-align: center;  
+    color: blanchedalmond; 
+    padding: 20px; 
+    background-color: #483434;
+    opacity: 0.9; 
+}  

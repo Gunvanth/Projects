@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Shalimar&display=swap');
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+  
+    font-family: 'Josefin Sans';  
+    background: url('/images/hotels.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size :100% 100%;
+  /* background-color:#F0E9D2; 'https://images.app.goo.gl/CF9uCEeePdCByTAJAs')*/
+   
+
+}  
+.login{  
+        width: 1000px; 
+        overflow: hidden;  
+     
+        margin: 20 0 0 450px;  
+         
+        
+     
+       
+background: rgba(255, 255, 255, 0.34);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+          
+}  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color:#483434;
+  }
+
+ 
+#phone{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#rid{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+
+.btn{
+    color:bisque;
+    background-color: #630000;
+    width:100px;
+    height:30px;
+    border-radius: 10px;
+    }
+    
